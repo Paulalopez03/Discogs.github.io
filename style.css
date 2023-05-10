@@ -1,0 +1,194 @@
+body {
+ margin: 0;
+ /* background-color: #0B0B0B; */
+
+
+}
+
+.card {
+  position: sticky;
+  top: 5em;
+  transform-origin: center top;
+  border-radius: 8vh;
+  border: none;
+  height: 550px;
+
+
+}
+.card h1 {
+ font-size:70px;
+ color: aliceblue;
+ font-family: 'DM Sans', sans-serif;
+font-weight: bold;
+line-height: 72px;
+
+
+}
+.card p {
+  font-size:35px;
+  color: aliceblue;
+  font-family: 'DM Sans', sans-serif;
+ font-weight:normal;
+ line-height: 37px;
+ 
+ 
+ }
+.card-body {
+padding: 2rem;
+
+
+}
+
+
+.card1 {
+  background-color: #1EA849;
+
+}
+
+.card2 {
+  background-color: #FF6F00;
+
+}
+
+.card3 {
+  background-color: #1874C1;
+
+}
+
+
+/* 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdbcd;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.container {
+  padding-top:4em;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #1708e1;
+}
+
+.cards + .cards {
+  margin-top: 80em;
+}
+
+.card {
+  position: sticky;
+  top: 1em;
+  padding: 1.5em;
+  border-radius: 1em;
+  background-color: red;
+}
+
+.card:nth-child(1) {
+  background-color: #ff6b30;
+}
+
+.card:nth-child(2) {
+  background-color: #ffa630;
+}
+
+.card:nth-child(3) {
+  background-color: #e52b63;
+}
+
+.card:nth-child(4) {
+  background-color: #ff8656;
+}
+
+.card:nth-child(5) {
+  background-color: #ffb756;
+}
+
+.card:nth-child(6) {
+  background-color: #ea4f7e;
+}
+
+.card__title {
+  margin-top: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.card__text {
+  margin-bottom: 0;
+  font-family: "Lora", serif;
+} */
+
+
+/* 
+body {
+	background-color: #2E3537;
+	font-family: 'Arial', sans-serif;
+}
+
+:root {
+	--cards: 3;
+
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+
+
+}
+
+#card1 {
+	--index: 1;
+}
+#card2 {
+	--index: 2;
+}
+#card3 {
+	--index: 3;
+}
+
+
+.card34 {
+	position: sticky;
+	top: 0;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+
+}
+
+#card1 .card-body {
+	background-color: #52B2CF;
+}
+#card2 .card-body {
+
+	background-color: #E5A36F;
+}
+#card3 .card-body {
+	background-color: #9CADCE;
+}
+
+
+.card-body {
+	box-sizing: border-box;
+	padding: 30px;
+	border-radius: 50px;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+}
+
+h2 {
+	font-size: 2.5em;
+} */
