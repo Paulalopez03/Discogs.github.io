@@ -55,11 +55,11 @@ body {
 
 
 .card h1 {
-  font-size: 4.375rem;
+  font-size: 4.375vw;
   color: aliceblue;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
-  line-height: 4.5vw;
+  line-height: 4vw;
 
 
 }
@@ -70,6 +70,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-weight: normal;
   line-height: 2.1875vw;
+  padding-top: 1vw;
 
 
 }
