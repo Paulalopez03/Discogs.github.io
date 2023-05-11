@@ -194,7 +194,20 @@
 </body>
 
 <script>
-
+$(document).ready(function() {
+  // Verificar si la cookie ya ha sido aceptada
+  if (localStorage.getItem("cookieAccepted") === "true") {
+    $(".cookie").hide();
+  }
+  
+  // Al hacer clic en "Aceptar"
+  $(".accept").click(function() {
+    // Esconder el banner de cookies
+    $(".cookie").hide();
+    // Guardar el estado de aceptación de cookies en el almacenamiento local
+    localStorage.setItem("cookieAccepted", "true");
+  });
+});
 
 
     var StackCards = function (element) {
