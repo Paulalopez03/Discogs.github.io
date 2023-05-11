@@ -19,8 +19,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ohm4oea.css">
 
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <title>Discogs</title>
 </head>
 
@@ -195,21 +194,20 @@
 
 <script>
 $(document).ready(function() {
-  // Verificar si se ha aceptado la cookie
-  var cookieAccepted = localStorage.getItem('cookieAccepted');
-  
-  if (!cookieAccepted) {
-    // La cookie no ha sido aceptada, mostrar el banner
-    $(".cookie").show();
-  }
-
-  $(".accept").click(function() {
-    // Ocultar el banner de la cookie
+  // Verificar si la cookie ya ha sido aceptada
+  if (localStorage.getItem("cookieAccepted") === "true") {
     $(".cookie").hide();
-    // Guardar el estado de aceptación en el almacenamiento local
-    localStorage.setItem('cookieAccepted', 'true');
+  }
+  
+  // Al hacer clic en "Aceptar"
+  $(".accept").click(function() {
+    // Esconder el banner de cookies
+    $(".cookie").hide();
+    // Guardar el estado de aceptación de cookies en el almacenamiento local
+    localStorage.setItem("cookieAccepted", "true");
   });
 });
+
 
     var StackCards = function (element) {
         this.element = element;
