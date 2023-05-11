@@ -1,11 +1,7 @@
-
-
-
 body {
   font-family: "roc-grotesk", sans-serif;
   font-style: normal;
   background-color: #0B0B0B;
-  padding: 3%;
   margin: 0;
 
 }
@@ -20,8 +16,9 @@ body {
 
 
 }
-.card-deck-js  {
-  padding:  3rem 0   3rem 0;
+
+.card-deck-js {
+  padding: 3rem 0 3rem 0;
 
 
 
@@ -41,35 +38,36 @@ body {
 
 
   .card1 {
-    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)),url(img/GenerosLanding.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/GenerosLanding.png);
     background-size: cover;
     background-position: center;
 
   }
 
   .card2 {
-    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)),url(img/GenerosLanding.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/GenerosLanding.png);
     background-size: cover;
     background-position: center;
 
   }
 
   .card3 {
-    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)),url(img/GenerosLanding.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/GenerosLanding.png);
     background-size: cover;
     background-position: center;
 
   }
+
   .card h1 {
     font-size: 6vw;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     line-height: 4vw;
-  
-  
+
+
   }
-  
+
   .card p {
     font-size: 4vw;
     color: aliceblue;
@@ -78,8 +76,8 @@ body {
     line-height: 4vw;
     padding-top: 1vw;
     margin-bottom: 0;
-  
-  
+
+
   }
 
 
@@ -91,16 +89,17 @@ body {
     height: 70vh;
     /* Altura fija para iPads */
   }
+
   .card h1 {
     font-size: 4.375vw;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     line-height: 4vw;
-  
-  
+
+
   }
-  
+
   .card p {
     font-size: 2.1875vw;
     color: aliceblue;
@@ -108,8 +107,8 @@ body {
     font-weight: normal;
     line-height: 2.1875vw;
     padding-top: 1vw;
-  
-  
+
+
   }
 }
 
@@ -159,85 +158,50 @@ body {
   background-color: #1EA849;
 
 }
+
 .nose1 {
   background-image: url(img/GenerosLanding.png);
 
-  
+
 }
+
 .card2 {
   background-color: #FF6F00;
 
 }
+
 .nose2 {
   background-image: url(img/GenerosLanding.png);
 
-  
+
 }
+
 .card3 {
   background-color: #1874C1;
 
 }
+
 .coleccion {
   background-image: url(img/GenerosLanding.png);
 
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cookie {
-  width: 420px;
-  height: 72px;
-  background-color: #fff;
-  position: fixed;
-  bottom: 88px;
-  border-radius: 10px;
-  left: 5%;
-  padding: 10px 20px;
-  z-index: 99;
-}
-
-.cookie .txt {
-  float: left;
-  width: 65%;
-}
-
-.txt p {
-  color: #1D2D35;
-}
-
-
-
-.cookie .accept {
-  background-color: #40CC79;
-  color: #fff !important;
-  border-radius: 32px;
-  padding: 3px 23px;
-  /* align-self: center; */
-  font-size: 19px;
-  margin-top: 2.5%;
-  margin-left: 3%;
 
 }
 
-.cookie .accept:hover {
-  background-color: #30b867;
-}
+
+
+
+
+
+
+
+
 
 
 /* amanda */
 
-
+.principio {
+  padding: 3%;
+}
 
 button {
   border: 2px solid #FF6F00;
@@ -249,37 +213,41 @@ button {
 }
 
 button:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
--webkit-transform: scale(1.1); /* Safari 3-8 */
-transform: scale(1.1);
-transition: transform .2s; 
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: transform .2s;
 }
 
-img.pantallas { max-width: 100%;
+img.pantallas {
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
 
-.cookie{
+.cookie {
   background-color: #30b867;
   position: fixed;
   border-radius: 30px;
-padding: 10px 20px;
+  padding: 10px 20px;
   z-index: 99;
 }
 
-.cookie .txt{
-float: left;
+.cookie .txt {
+  float: left;
   width: 80%;
   padding-top: 15px;
   padding-left: 5px;
 }
-.txt p{
-color:#F1F1F1;
+
+.txt p {
+  color: #F1F1F1;
 }
 
-.txt a{
-color:#F1F1F1;
+.txt a {
+  color: #F1F1F1;
 }
 
 .cookie .accept {
@@ -289,11 +257,11 @@ color:#F1F1F1;
   width: 100%;
   /* align-self: center; */
   font-size: 15px;
-  margin-top: 0.5%;	
+  margin-top: 0.5%;
   margin-bottom: 5px;
 }
 
-.gestionar{
+.gestionar {
   background-color: #0B0B0B;
   color: #F1F1F1 !important;
   border-radius: 32px;
@@ -301,43 +269,43 @@ color:#F1F1F1;
   height: 40px;
   /* align-self: center; */
   font-size: 15px;
-  margin-top: 0.5%;	
+  margin-top: 0.5%;
   border: 0px;
 }
 
 .cookie .accept:hover {
-background-color: #f1f1f185;
+  background-color: #f1f1f185;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
-      color: #F1F1F1;
-      font-size: 11vw;
-      text-align: left;
-      line-height: 0.9em;
-      font-family: "roc-grotesk", sans-serif;
-      font-weight: 500;
-      font-style: normal; 
-  }
-  
-  img.pantallas { max-width: 100%;
-      margin-bottom: 40px;
-      margin-top: 40px;
+    color: #F1F1F1;
+    font-size: 11vw;
+    text-align: left;
+    line-height: 0.9em;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
 
-  .txt p{
-      font-size: 2.5vw;
+  img.pantallas {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 
-  .cookie{
-      right: 5%;
-      width: 420px;
-      height: 220px;
-      bottom: 35px; }
-  
+  .txt p {
+    font-size: 2.5vw;
+  }
+
+  .cookie {
+    height: 220px;
+    bottom: -15px;
+  }
+
   .gestionar {
-      width: 100%;
+    width: 100%;
   }
 
 
@@ -346,25 +314,27 @@ background-color: #f1f1f185;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   h1 {
-      color: #F1F1F1;
-      font-size: 8vw;
-      text-align: left;
-      line-height: 0.9em;
-      font-family: "roc-grotesk", sans-serif;
-      font-weight: 500;
-      font-style: normal; 
-  }
-  img.pantallas { max-width: 100%;
-      margin-bottom: 40px;
-      margin-top: 40px;
+    color: #F1F1F1;
+    font-size: 8vw;
+    text-align: left;
+    line-height: 0.9em;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
 
-  .cookie{
-      right: 5%;
-      width: 420px;
-      height: 270px;
-      bottom: 20px;
-   }
+  img.pantallas {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .cookie {
+    right: 5%;
+    width: 420px;
+    height: 270px;
+    bottom: 20px;
+  }
 
 }
 
@@ -374,36 +344,39 @@ background-color: #f1f1f185;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   h1 {
-      color: #F1F1F1;
-      font-size: 8vw;
-      text-align: left;
-      line-height: 0.9em;
-      font-family: "roc-grotesk", sans-serif;
-      font-weight: 500;
-      font-style: normal; 
+    color: #F1F1F1;
+    font-size: 8vw;
+    text-align: left;
+    line-height: 0.9em;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
-  img.pantallas { max-width: 100%;
-      margin-bottom: 40px;
-      margin-top: 40px;
+
+  img.pantallas {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
-  .cookie{
-      width: 420px;
-      height: 270px;
-      bottom: 20px;
-   }
+
+  .cookie {
+    width: 420px;
+    height: 270px;
+    bottom: 20px;
+  }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   h1 {
-      color: #F1F1F1;
-      font-size: 6vw;
-      text-align: left;
-      line-height: 0.9em;
-      font-family: "roc-grotesk", sans-serif;
-      font-weight: 500;
-      font-style: normal; 
+    color: #F1F1F1;
+    font-size: 6vw;
+    text-align: left;
+    line-height: 0.9em;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
 }
 

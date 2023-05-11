@@ -17,10 +17,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/ohm4oea.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xka8cfc.css">
 
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <title>Discogs</title>
@@ -43,46 +41,47 @@
 
 
 
-<!-- amanda -->
+    <!-- amanda -->
 
-<section class="cookie" id="aviso">
-    <div class="txt">
-       <p class="col-12 col-md-12">
-        Utilizamos cookies de terceros para mejorar su experiencia en el sitio y ofrecer contenido personalizado. Al usar Discogs, aceptas nuestros términos. 
-        <a href="#" target="_blanck">Aprende más.</a>
-       </p>
-    </div>
-    <div>
-       <a class="btn accept" onclick="cerrarAviso()">Aceptar</a>
-    </div>
-    <button class="gestionar">
-        <a>Gestionar cookies</a>
-     </button>
-  </section>
+    <section class="cookie  " id="aviso">
+        <div class="txt">
+            <p class="col-12 col-md-12">
+                Utilizamos cookies de terceros para mejorar su experiencia en el sitio y ofrecer contenido
+                personalizado. Al usar Discogs, aceptas nuestros términos.
+                <a href="#" target="_blanck">Aprende más.</a>
+            </p>
+        </div>
+        <div>
+            <a class="btn accept" onclick="cerrarAviso()">Aceptar</a>
+        </div>
+        <button class="gestionar">
+            <a>Gestionar cookies</a>
+        </button>
+    </section>
 
-<div class="container-fluid">
-    <!-- <nav class="navbar">
+    <div class="container-fluid principio">
+        <!-- <nav class="navbar">
         <a href="#"> <img src="img/logo.png" alt="discogs-logo"></a>
     </nav> -->
-    <div class="row">
+        <div class="row">
 
-        <div class="col-12 col-md-12 col-lg-6">
-            <h1>
-                La música es mejor cuando se comparte, únete a discogs
-            </h1>
-            <button>
-                DESCARGAR
-        </button>
-        </div>
-       
-        <div class="col-12 col-md-12 col-lg-6">
-            <img class="pantallas" src="img/tablet.png" alt="pantallas-aplicacion">
+            <div class="col-12 col-md-12 col-lg-6">
+                <h1>
+                    La música es mejor cuando se comparte, únete a discogs
+                </h1>
+                <button class="descargar">
+                    DESCARGAR
+                </button>
+            </div>
 
+            <div class="col-12 col-md-12 col-lg-6">
+                <img class="pantallas" src="img/tablet.png" alt="pantallas-aplicacion">
+
+            </div>
         </div>
     </div>
-</div>
 
-<!-- amanda -->
+    <!-- amanda -->
 
 
 
@@ -93,7 +92,7 @@
         </div>
     </nav>
 
-   
+
 
     <!-- movil -->
     <div class="container-fluid  card-deck-js d-block d-sm-none">
@@ -103,7 +102,7 @@
                     <h1>Descubre nueva música</h1>
                     <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                
+
 
 
             </div>
@@ -114,7 +113,7 @@
                     <h1>Descubre nueva música</h1>
                     <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                
+
 
 
             </div>
@@ -125,7 +124,7 @@
                     <h1>Descubre nueva música</h1>
                     <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                
+
 
 
             </div>
@@ -200,10 +199,10 @@
         // });
 
         function cerrarAviso() {
-        console.log('hola');
-        let aviso = document.getElementById('aviso');
-        aviso.style.display = 'none';
-    }
+            console.log('hola');
+            let aviso = document.getElementById('aviso');
+            aviso.style.display = 'none';
+        }
 
 
         var StackCards = function (element) {
