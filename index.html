@@ -21,12 +21,14 @@
 
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
     <title>Discogs</title>
 </head>
 
 
 <body>
-
+    <!-- 
     <section class="cookie">
         <div class="txt">
             <p class="">
@@ -37,7 +39,51 @@
         <div>
             <a class="btn accept">Accept</a>
         </div>
-    </section>
+    </section> -->
+
+
+
+<!-- amanda -->
+
+<section class="cookie" id="aviso">
+    <div class="txt">
+       <p class="col-12 col-md-12">
+        Utilizamos cookies de terceros para mejorar su experiencia en el sitio y ofrecer contenido personalizado. Al usar Discogs, aceptas nuestros términos. 
+        <a href="#" target="_blanck">Aprende más.</a>
+       </p>
+    </div>
+    <div>
+       <a class="btn accept" onclick="cerrarAviso()">Aceptar</a>
+    </div>
+    <button class="gestionar">
+        <a>Gestionar cookies</a>
+     </button>
+  </section>
+
+<div class="container-fluid">
+    <!-- <nav class="navbar">
+        <a href="#"> <img src="img/logo.png" alt="discogs-logo"></a>
+    </nav> -->
+    <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-6">
+            <h1>
+                La música es mejor cuando se comparte, únete a discogs
+            </h1>
+            <button>
+                DESCARGAR
+        </button>
+        </div>
+       
+        <div class="col-12 col-md-12 col-lg-6">
+            <img class="pantallas" src="img/tablet.png" alt="pantallas-aplicacion">
+
+        </div>
+    </div>
+</div>
+
+<!-- amanda -->
+
 
 
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -47,93 +93,55 @@
         </div>
     </nav>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-        repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum
-        dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
+   
 
-    </p>
-
-
+    <!-- movil -->
     <div class="container-fluid  card-deck-js d-block d-sm-none">
-        <div class="card card1 col-12 col-lg-10 mx-auto ">
-            <div class="card-body row m-0 align-items-center">
-                <div class="col-md-6">
-                    <h2>Título</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta purus sit amet lorem
-                        aliquet, vitae tincidunt risus commodo. Curabitur volutpat dapibus purus, id lobortis nibh
-                        consectetur non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                        cubilia Curae; Proin nec erat ut nunc dictum euismod. Fusce viverra interdum erat, ut
-                        efficitur turpis imperdiet ac. Phasellus ultrices facilisis lectus a lobortis. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
-                        potenti. Etiam consequat, purus eget interdum rutrum, ante enim fermentum nisi, et
-                        scelerisque ipsum orci a metus.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="ruta_de_la_imagen" alt="Imagen" class="img-fluid">
-                </div>
-
-
-            </div>
-        </div>
-        <div class="card card2 col-12 col-lg-10 mx-auto ">
-            <div class="card-body row m-0 align-items-center">
-                <div class="col-md-6">
-                    <h2>Título</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta purus sit amet lorem
-                        aliquet, vitae tincidunt risus commodo. Curabitur volutpat dapibus purus, id lobortis nibh
-                        consectetur non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                        cubilia Curae; Proin nec erat ut nunc dictum euismod. Fusce viverra interdum erat, ut
-                        efficitur turpis imperdiet ac. Phasellus ultrices facilisis lectus a lobortis. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
-                        potenti. Etiam consequat, purus eget interdum rutrum, ante enim fermentum nisi, et
-                        scelerisque ipsum orci a metus.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="ruta_de_la_imagen" alt="Imagen" class="img-fluid">
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="card card3 col-12 col-lg-10 mx-auto ">
-            <div class="card-body row m-0 align-items-center">
-                <div class="col-md-7">
+        <div class="card card1 col-12  mx-auto ">
+            <div class="card-body row m-0 align-content-end">
+                <div class="col-12 p-0">
                     <h1>Descubre nueva música</h1>
                     <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                <div class="col-md-5 fotico">
+                
 
+
+            </div>
+        </div>
+        <div class="card card2 col-12  mx-auto ">
+            <div class="card-body row m-0 align-content-end">
+                <div class="col-12 p-0">
+                    <h1>Descubre nueva música</h1>
+                    <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
+                
+
+
+            </div>
+        </div>
+        <div class="card card3 col-12  mx-auto ">
+            <div class="card-body row m-0 align-content-end">
+                <div class="col-12 p-0">
+                    <h1>Descubre nueva música</h1>
+                    <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
+                </div>
+                
 
 
             </div>
         </div>
     </div>
+
+    <!-- pc tab -->
     <div class="container-fluid  card-deck-js d-none d-sm-block">
         <div class="card card1 col-12 col-lg-10 mx-auto ">
             <div class="card-body row m-0 align-items-center">
-                <div class="col-md-6">
-                    <h2>Título</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta purus sit amet lorem
-                        aliquet, vitae tincidunt risus commodo. Curabitur volutpat dapibus purus, id lobortis nibh
-                        consectetur non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                    </p>
+                <div class="col-md-7">
+                    <h1>Descubre nueva música</h1>
+                    <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="ruta_de_la_imagen" alt="Imagen" class="img-fluid">
+                <div class="col-md-5 fotografia nose1">
+
                 </div>
 
 
@@ -141,16 +149,12 @@
         </div>
         <div class="card card2 col-12 col-lg-10 mx-auto ">
             <div class="card-body row m-0 align-items-center">
-                <div class="col-md-6">
-                    <h2>Título</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta purus sit amet lorem
-                        aliquet, vitae tincidunt risus commodo. Curabitur volutpat dapibus purus, id lobortis nibh
-                        consectetur non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                        cubilia Curae; Proin nec erat ut nunc dictum euismod. Fusce viverra interdum erat, ut
-                    </p>
+                <div class="col-md-7">
+                    <h1>Descubre nueva música</h1>
+                    <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="ruta_de_la_imagen" alt="Imagen" class="img-fluid">
+                <div class="col-md-5 fotografia nose2">
+
                 </div>
 
 
@@ -163,7 +167,7 @@
                     <h1>Descubre nueva música</h1>
                     <p>Podrás encontrar nuevos artistas y canciones que se ajusten a tus gustos musicales.</p>
                 </div>
-                <div class="col-md-5 fotico">
+                <div class="col-md-5 fotografia coleccion">
 
                 </div>
 
@@ -174,40 +178,32 @@
 
 
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possiero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima laborum dolorum dolorem accusamus
-        blanditiis maxime nesciunt aliquid doloribus error repellendus eius libero, maiores, eum culpa iusto quae!
-        Possimus, excepturi?
-
-
-    </p>
 
 
 
 
 
     <script>
-    $(document).ready(function () {
-            // Verificar si la cookie ya ha sido aceptada
-            if (localStorage.getItem("cookieAccepted") === "true") {
-                $(".cookie").hide();
-            }
+        // $(document).ready(function () {
+        //     // Verificar si la cookie ya ha sido aceptada
+        //     if (localStorage.getItem("cookieAccepted") === "true") {
+        //         $(".cookie").hide();
+        //     }
 
-            // Al hacer clic en "Aceptar"
-            $(".accept").click(function () {
-                // Esconder el banner de cookies
-                $(".cookie").hide();
-                // Guardar el estado de aceptación de cookies en el almacenamiento local
-                localStorage.setItem("cookieAccepted", "true");
-            });
-        });
+        //     // Al hacer clic en "Aceptar"
+        //     $(".accept").click(function () {
+        //         // Esconder el banner de cookies
+        //         $(".cookie").hide();
+        //         // Guardar el estado de aceptación de cookies en el almacenamiento local
+        //         localStorage.setItem("cookieAccepted", "true");
+        //     });
+        // });
+
+        function cerrarAviso() {
+        console.log('hola');
+        let aviso = document.getElementById('aviso');
+        aviso.style.display = 'none';
+    }
 
 
         var StackCards = function (element) {
