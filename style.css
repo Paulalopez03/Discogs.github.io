@@ -5,6 +5,34 @@ body {
   margin: 0;
 
 }
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  #0B0B0B;
+   border-radius: 100vw;
+  border: 0.10rem solid #ffffff;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:  #ffffff;
+   border-radius: 100vw;
+  border: 0.10rem solid #ffffff;
+}
+
+body::-webkit-scrollbar-track {
+  background:#0B0B0B;
+  border-radius: 100vw;
+  margin-block: 0.5rem;
+}
+
+
+
+
 
 .card {
   position: sticky;
