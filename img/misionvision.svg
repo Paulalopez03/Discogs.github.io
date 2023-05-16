@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1830.51 1160.17">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #f1f1f1;
+        font-family: RocGrotesk-Bold, 'Roc Grotesk';
+        font-size: 350px;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Misión_visión_y_valores" data-name="Misión visión y valores" class="cls-3">
+    <text class="cls-2" transform="translate(134.42 448.13)"><tspan x="0" y="0">Misión, </tspan></text>
+    <text class="cls-2" transform="translate(134.42 698.13)"><tspan x="0" y="0">visión y </tspan></text>
+    <text class="cls-2" transform="translate(134.42 948.13)"><tspan class="cls-1" x="0" y="0">v</tspan><tspan x="211.4" y="0">alores</tspan></text>
+  </g>
+</svg>

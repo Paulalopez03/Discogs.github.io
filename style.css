@@ -3,66 +3,9 @@ body {
   font-style: normal;
   background-color: #0B0B0B;
   margin: 0;
+  overflow-x: hidden;
 
 }
-/* 
-
-::-webkit-scrollbar {
-    width: 0.8rem;
-}
-
-
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
-    border-style: solid;
-    border-color: black;
-
-
-
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    border-right: 1.1pt;
-    border-top: 2pt;
-    border-bottom: 2pt;
-    border-left: 2pt;
-    border-style: solid;
-    border-color: black;
-
-
-
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0);
-    border-radius: 10px;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
-    border-style: solid;
-    border-color: black;
-
-} */
-
-
-/* 
-body::-webkit-scrollbar {
-  width: 12px;              
-}
-
-body::-webkit-scrollbar-track {
-  background: #0B0B0B;      
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #0B0B0B;   
-  border-radius: 10px;      
-  border: 2px solid rgb(255, 255, 255); 
-} */
 
 ::-webkit-scrollbar {
   width: 0.9rem;
@@ -91,7 +34,7 @@ body::-webkit-scrollbar-track {
 
 
 
-
+/* paula */
 
 
 .card {
@@ -277,7 +220,7 @@ body::-webkit-scrollbar-track {
 
 
 
-
+/* paula */
 
 
 
@@ -473,3 +416,75 @@ img.pantallas {
 
 
 /* amanda */
+
+/* romina */
+
+.mision {
+  color: white;
+  font-size: 18vw;
+  white-space: nowrap;
+}
+
+.carta-container {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  width: 60%;
+  height: 110%;
+}
+
+@media screen and (min-width: 420px) {
+  .carta-container {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      width: 50%;
+      height: 90%;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .carta-container {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 40%;
+      height: 80%;
+      transform: translateX(20%) translateY(10%);
+  }
+}
+
+.carta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #F1F1F1;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  transition: transform .35s ease-out;
+  transform: translate(var(--x), var(--y)) scale(.45) rotate(var(--angle));
+  z-index: var(--z);
+  will-change: transform;
+  border: none;
+}
+
+.carta:hover {
+  transform: translate(var(--x), var(--y)) scale(.50) rotate(var(--angle));
+  z-index: 100;
+}
+
+.carta::before {
+  opacity: 1;
+}
+
+.carta:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* romina */
