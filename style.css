@@ -76,14 +76,14 @@ body::-webkit-scrollbar-track {
   }
 
   .card2 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/GenerosLanding.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/Cometarios.png);
     background-size: cover;
     background-position: center;
 
   }
 
   .card3 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/GenerosLanding.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url(img/Vender.png);
     background-size: cover;
     background-position: center;
 
@@ -335,7 +335,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nose2 {
-  background-image: url(img/GenerosLanding.png);
+  background-image: url(img/Cometarios.png);
 
 
 }
@@ -346,7 +346,7 @@ body::-webkit-scrollbar-track {
 }
 
 .coleccion {
-  background-image: url(img/GenerosLanding.png);
+  background-image: url(img/Vender.png);
 
 
 }
